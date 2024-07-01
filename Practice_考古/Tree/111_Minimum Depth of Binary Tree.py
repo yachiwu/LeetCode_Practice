@@ -39,7 +39,7 @@ def createTreeNode(nums:List[int])->TreeNode:
 #     result = []
 #     queue = deque([root])
 #     while queue:
-#         node = queue.popleft
+#         node = queue.popleft()
 #         result.append(node.val)
 #         if node.left:
 #             queue.append(node.left)
